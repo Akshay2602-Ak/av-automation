@@ -40,8 +40,8 @@ const founders = [
 ]
 
 const stats = [
-  { icon: Code2,  val: 20, suffix: '+', label: 'Projects Delivered', color: '#C87740' },
-  { icon: Users,  val: 15, suffix: '+', label: 'Happy Clients',      color: '#E8623A' },
+  { icon: Code2,  val: 10, suffix: '+', label: 'Projects Delivered', color: '#C87740' },
+  { icon: Users,  val: 8, suffix: '+', label: 'Happy Clients',      color: '#E8623A' },
   { icon: Award,  val: 3,  suffix: '+', label: 'Years Experience',   color: '#F0A850' },
   { icon: Cpu,    val: 100,suffix: '%', label: 'On-Time Delivery',   color: '#E09058' },
 ]
