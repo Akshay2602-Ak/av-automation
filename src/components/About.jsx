@@ -157,9 +157,9 @@ export default function About() {
               <div className="section-tag mb-3">// our story</div>
               <div className="space-y-4">
                 {[
-                  { year: '2021', event: 'Both founders meet at Cognizant Technology Solutions, Coimbatore.' },
-                  { year: '2022', event: 'Collaborated on Oracle Apps DBA and automation projects internally.' },
-                  { year: '2023', event: 'Began accepting freelance projects. First AI automation client acquired.' },
+                  { year: '2024', event: 'Both founders meet at Cognizant Technology Solutions, Coimbatore.' },
+                  { year: '2025', event: 'Collaborated on Oracle Apps DBA and automation projects internally.' },
+                  { year: '2026', event: 'Began accepting freelance projects. First AI automation client acquired and Launched AV Automation & AI Solutions officially. 10+ clients served.' },
                   { year: '2024', event: 'Launched AV Automation & AI Solutions officially. 15+ clients served.' },
                 ].map(({ year, event }) => (
                   <div key={year} className="flex gap-4">
