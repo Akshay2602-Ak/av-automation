@@ -64,7 +64,7 @@ export default function Contact() {
             <div className="glass rounded-2xl p-6 space-y-4" style={{ border:'1px solid rgba(200,119,64,0.12)' }}>
               <h3 className="font-zeroarea font-semibold" style={{ color:'#E8D5C0' }}>Reach Us Directly</h3>
               {[
-                { href:'https://wa.me/919876543210', icon:MessageCircle, label:'WhatsApp', sub:'+91 98765 43210', color:'#C87740' },
+                { href:'https://wa.me/919363867353', icon:MessageCircle, label:'WhatsApp', sub:'+91 98765 43210', color:'#C87740' },
                 { href:'mailto:hello@avautomation.in', icon:Mail, label:'Email', sub:'hello@avautomation.in', color:'#E8623A' },
               ].map(({ href, icon:Icon, label, sub, color }) => (
                 <a key={label} href={href} target="_blank" rel="noreferrer"
@@ -101,7 +101,7 @@ export default function Contact() {
                 <p className="font-body text-sm mb-4 leading-relaxed" style={{ color:'rgba(232,213,192,0.55)' }}>
                   Book a 30-minute call. No obligation, no sales pitch — just an honest conversation about your needs.
                 </p>
-                <a href="https://wa.me/919876543210?text=Hi! I'd like a free consultation." target="_blank" rel="noreferrer"
+                <a href="https://wa.me/919363867353?text=Hi! I'd like a free consultation." target="_blank" rel="noreferrer"
                   className="btn-primary flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm w-full justify-center">
                   <MessageCircle size={15}/> Book Free Call
                 </a>
@@ -114,7 +114,7 @@ export default function Contact() {
               <h3 className="font-zeroarea font-semibold text-xl mb-6" style={{ color:'#E8D5C0' }}>Project Inquiry Form</h3>
               <form onSubmit={handleSubmit} className="space-y-5" noValidate>
                 <div className="grid sm:grid-cols-2 gap-4">
-                  {[{k:'name',label:'Full Name *',type:'text',ph:'John Smith'},{k:'email',label:'Email Address *',type:'email',ph:'you@company.com'}].map(({k,label,type,ph}) => (
+                  {[{k:'name',label:'Full Name *',type:'text',ph:'Full Name'},{k:'email',label:'Email Address *',type:'email',ph:'you@company.com'}].map(({k,label,type,ph}) => (
                     <div key={k}>
                       <label className="block text-xs font-mono mb-1.5" style={{ color:'rgba(200,119,64,0.5)' }}>{label}</label>
                       <input type={type} value={form[k]} onChange={e=>set(k,e.target.value)} placeholder={ph}
@@ -128,7 +128,7 @@ export default function Contact() {
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-mono mb-1.5" style={{ color:'rgba(200,119,64,0.5)' }}>Phone / WhatsApp</label>
-                    <input type="tel" value={form.phone} onChange={e=>set('phone',e.target.value)} placeholder="+91 98765 43210"
+                    <input type="tel" value={form.phone} onChange={e=>set('phone',e.target.value)} placeholder="Mobile Number"
                       className="w-full px-4 py-3 rounded-xl glass text-sm font-body focus:outline-none transition-colors"
                       style={{ border:'1px solid rgba(200,119,64,0.15)', color:'#E8D5C0', background:'rgba(200,119,64,0.03)' }} />
                   </div>

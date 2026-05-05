@@ -90,7 +90,7 @@ export default function Footer() {
               <Mail size={13} /> Email Us
             </a>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919363867353"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-display font-bold bg-green-500/20 border border-green-500/30 text-green-400 hover:bg-green-500/30 transition-all"
