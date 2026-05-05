@@ -84,8 +84,8 @@ export default function Hero() {
 
             <div className="flex items-center gap-6 mb-10">
               {[
-                { val: '20+', label: 'Projects Delivered' },
-                { val: '15+', label: 'Happy Clients' },
+                { val: '10+', label: 'Projects Delivered' },
+                { val: '8+', label: 'Happy Clients' },
                 { val: '3+',  label: 'Years Experience' },
               ].map(({ val, label }) => (
                 <div key={label} className="text-center">
