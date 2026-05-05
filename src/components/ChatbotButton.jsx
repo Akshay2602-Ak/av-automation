@@ -40,7 +40,7 @@ export default function ChatbotButton() {
       {/* Chat window */}
       {open && !minimized && (
         <div className="w-80 glass border border-white/10 rounded-2xl overflow-hidden shadow-2xl animate-[slideUp_0.3s_ease]"
-          style={{ boxShadow: '0 30px 80px rgba(34,211,238,0.1), 0 0 40px rgba(168,85,247,0.05)' }}>
+          style={{ boxShadow: '0 30px 80px rgba(248, 185, 66, 0.81), 0 0 40px rgba(168,85,247,0.05)' }}>
 
           {/* Header */}
           <div className="px-4 py-3.5 flex items-center justify-between bg-gradient-to-r from-cyan-400/10 to-purple-500/10 border-b border-white/5">
@@ -121,7 +121,7 @@ export default function ChatbotButton() {
 
           {/* Footer */}
           <div className="text-center pb-2">
-            <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer"
+            <a href="https://wa.me/919363867353" target="_blank" rel="noreferrer"
               className="text-xs font-mono text-gray-600 hover:text-green-400 transition-colors">
               Or chat on WhatsApp →
             </a>
