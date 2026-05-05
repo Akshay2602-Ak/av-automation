@@ -145,7 +145,7 @@ export default function ChatbotButton() {
       <button
         onClick={() => { setOpen(!open); setMinimized(false) }}
         className={`w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-400 to-purple-500 flex items-center justify-center shadow-lg hover:scale-110 transition-all chat-pulse`}
-        style={{ boxShadow: '0 0 30px rgba(34,211,238,0.3)' }}
+        style={{ boxShadow: '0 0 30px rgba(245, 153, 15, 0.83)' }}
         aria-label="Open chat"
       >
         {open ? <X size={22} className="text-[#020818]" /> : <MessageCircle size={22} className="text-[#020818]" />}
