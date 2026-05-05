@@ -110,8 +110,8 @@ export default function About() {
                   <h3 className="font-zeroarea font-bold text-xl" style={{ color: '#E8D5C0' }}>{f.name}</h3>
                   <p className="text-sm font-mono mt-1" style={{ color: f.color }}>{f.role}</p>
                   <div className="flex gap-3 mt-2">
-                    <a href="#" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Github size={16}/></a>
-                    <a href="#" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Linkedin size={16}/></a>
+                    <a href="https://github.com/Akshay2602-Ak" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Github size={16}/></a>
+                    <a href="linkedin.com/in/akshay-kumar-t-37bb9b285" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Linkedin size={16}/></a>
                   </div>
                 </div>
               </div>
