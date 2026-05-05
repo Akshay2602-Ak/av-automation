@@ -113,6 +113,10 @@ export default function About() {
                     <a href="https://github.com/Akshay2602-Ak" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Github size={16}/></a>
                     <a href="linkedin.com/in/akshay-kumar-t-37bb9b285" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Linkedin size={16}/></a>
                   </div>
+                  <div className="flex gap-3 mt-2">
+                    <a href="#" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Github size={16}/></a>
+                    <a href="#" style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Linkedin size={16}/></a>
+                  </div>
                 </div>
               </div>
               <p className="font-body leading-relaxed mb-6 text-sm" style={{ color: 'rgba(232,213,192,0.6)' }}>{f.bio}</p>
