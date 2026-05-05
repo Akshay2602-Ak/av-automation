@@ -106,35 +106,14 @@ export default function About() {
                     style={{ background: f.gradient, color: '#021F26' }}>{f.initials}</div>
                   <div className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-green-400 border-2" style={{ borderColor: '#021F26' }} />
                 </div>
-              <div className="flex gap-3 mt-2">
-  <a
-    href={
-      f.name === 'Akshay Kumar T'
-        ? 'https://github.com/Akshay2602-Ak'
-        : '#'
-    }
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{ color: 'rgba(200,119,64,0.45)' }}
-    className="hover:text-raisin transition-colors"
-  >
-    <Github size={16}/>
-  </a>
-
-  <a
-    href={
-      f.name === 'Akshay Kumar T'
-        ? 'https://www.linkedin.com/in/akshay-kumar-t-37bb9b285'
-        : '#'
-    }
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{ color: 'rgba(200,119,64,0.45)' }}
-    className="hover:text-raisin transition-colors"
-  >
-    <Linkedin size={16}/>
-  </a>
-</div>
+                <div>
+                  <h3 className="font-zeroarea font-bold text-xl" style={{ color: '#E8D5C0' }}>{f.name}</h3>
+                  <p className="text-sm font-mono mt-1" style={{ color: f.color }}>{f.role}</p>
+                  <div className="flex gap-3 mt-2">
+                    <a href={f.name === 'Akshay Kumar T' ? 'https://github.com/Akshay2602-Ak' : 'https://github.com/FRIEND_GITHUB_USERNAME'} style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Github size={16}/></a>
+                    <a href={f.name === 'Akshay Kumar T' ? 'https://www.linkedin.com/in/akshay-kumar-t-37bb9b285' : 'https://www.linkedin.com/in/FRIEND_LINKEDIN_USERNAME'} style={{ color: 'rgba(200,119,64,0.45)' }} className="hover:text-raisin transition-colors"><Linkedin size={16}/></a>
+                  </div>
+                </div>
               </div>
               <p className="font-body leading-relaxed mb-6 text-sm" style={{ color: 'rgba(232,213,192,0.6)' }}>{f.bio}</p>
               <div className="space-y-3 mb-6">
