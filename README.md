@@ -1,4 +1,4 @@
-# AV Automation & AI Solutions — Website
+# AV Technology — Website
 
 Premium dark-futuristic company website for **AV Automation & AI Solutions**.
 
@@ -6,7 +6,7 @@ Built with **React 18 + Vite + Tailwind CSS + Framer-ready animations**.
 
 ---
 
-## ✨ Features
+## Features
 
 - **8 Complete Sections**: Hero, About, Services, Projects, Pricing, Testimonials, Blog, Contact
 - **Particle Network** background (canvas-based, 80 animated particles with connections)
@@ -30,7 +30,7 @@ Built with **React 18 + Vite + Tailwind CSS + Framer-ready animations**.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -57,7 +57,7 @@ npm run preview
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 av-automation/
@@ -87,7 +87,7 @@ av-automation/
 
 ---
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 | Variable | Value | Usage |
@@ -107,7 +107,7 @@ av-automation/
 
 ---
 
-## 🔧 Customization
+## Customization
 
 ### Update Contact Info
 In `Contact.jsx` and `Footer.jsx`:
@@ -137,7 +137,7 @@ await fetch('https://formspree.io/f/YOUR_ID', {
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 ```bash
@@ -160,7 +160,7 @@ npm run build
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
